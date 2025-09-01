@@ -6,6 +6,9 @@
  * This script converts Claude Code agent definitions (.claude/agents/*.md)
  * to opencode.ai compatible format (.opencode/agent/*.md) and generates AGENTS.md.
  *
+ * The original Claude Code agents remain unchanged and can be used with Claude Code.
+ * The converted agents are optimized for opencode.ai while maintaining full compatibility.
+ *
  * Features:
  * - Maps Claude Code tools to opencode.ai tools
  * - Converts Claude model names to provider/model format
@@ -647,8 +650,9 @@ if (require.main === module) {
     console.log('  - Converts Claude Code agents to opencode.ai format');
     console.log('  - Maps tools from Claude to opencode.ai equivalents');
     console.log('  - Generates AGENTS.md with categorized agent list');
-    console.log('  - Special handling for UIx agents with React 19 patterns');
+    console.log('  - Special handling for shadcn/ui agents with modern React patterns');
     console.log('  - Validates converted agents against opencode.ai specification');
+    console.log('  - Preserves original Claude Code agents for dual compatibility');
   } else {
     convertAllAgents();
   }

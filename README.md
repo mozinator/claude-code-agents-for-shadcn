@@ -1,6 +1,6 @@
-# Shadcn/UI Code Agents for opencode.ai
+# Shadcn/UI Code Agents
 
-12 specialized opencode.ai agents for shadcn/ui development.
+12 specialized agents for shadcn/ui development with support for both **Claude Code** and **opencode.ai**.
 
 ## Agents
 
@@ -16,6 +16,19 @@
 - **shadcn-accessibility-auditor** - WCAG compliance, inclusive design
 - **shadcn-testing-engineer** - Jest, RTL, Playwright, visual regression
 - **shadcn-migration-specialist** - Migration from Material-UI, Chakra UI, Ant Design
+
+## Compatibility
+
+This collection supports both **Claude Code** and **opencode.ai** platforms:
+
+### For Claude Code
+1. Copy agent files from `.claude/agents/` to your project's `.claude/agents/` directory
+2. Append contents from `CLAUDE.md` to your project's `CLAUDE.md` file
+
+### For opencode.ai
+1. Copy agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
+2. Run the conversion script: `node scripts/convert-claude-agents.js`
+3. The script generates opencode.ai compatible agents and `AGENTS.md` file
 
 ## Usage
 

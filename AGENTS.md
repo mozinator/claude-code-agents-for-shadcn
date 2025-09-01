@@ -1,6 +1,8 @@
-# Shadcn/UI Agents for opencode.ai
+# Shadcn/UI Agents
 
 Specialized agents for comprehensive shadcn/ui development with modern React support.
+
+**Compatible with both Claude Code and opencode.ai platforms.**
 
 ## Available Agents
 
@@ -75,9 +77,16 @@ All agents are designed to work with modern React and TypeScript:
 - Component composition and reusability
 - Performance optimization techniques
 
-## Installation
+## Compatibility & Installation
 
-1. Copy the agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
+This collection supports both **Claude Code** and **opencode.ai** platforms:
+
+### For Claude Code
+1. Copy agent files from `.claude/agents/` to your project's `.claude/agents/` directory
+2. Append contents from `CLAUDE.md` to your project's `CLAUDE.md` file
+
+### For opencode.ai
+1. Copy agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
 2. Run the conversion script: `node scripts/convert-claude-agents.js`
 3. The script will generate opencode.ai compatible agents and this AGENTS.md file
 
