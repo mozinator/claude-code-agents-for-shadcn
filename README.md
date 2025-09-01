@@ -27,27 +27,12 @@ This collection supports both **Claude Code** and **opencode.ai** platforms:
 
 ### For opencode.ai
 1. Copy agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
-2. Run the conversion script: `node scripts/convert-claude-agents.js`
-3. The script generates opencode.ai compatible agents and `AGENTS.md` file
+2. Manually keep the opencode.ai and Claude Code subagents in sync
 
 ## Usage
 
 1. Copy the agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
-2. Run the conversion script: `node scripts/convert-claude-agents.js`
-3. The script will generate opencode.ai compatible agents and AGENTS.md file
-
-## Quick Start
-
-```bash
-# Convert Claude Code agents to opencode.ai format
-node scripts/convert-claude-agents.js
-
-# Or generate AGENTS.md only
-node scripts/convert-claude-agents.js --agents-md
-
-# Validate converted agents
-node scripts/convert-claude-agents.js --validate
-```
+2. Manually keep the opencode.ai and Claude Code subagents in sync
 
 ## Available Agents
 
