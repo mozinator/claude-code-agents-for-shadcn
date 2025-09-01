@@ -1,119 +1,20 @@
 # Shadcn/UI Agents
 
-Specialized agents for comprehensive shadcn/ui development with modern React support.
-
-**Compatible with both Claude Code and opencode.ai platforms.**
+12 specialized agents for shadcn/ui development, compatible with both Claude Code and opencode.ai platforms.
 
 ## Available Agents
 
-### Setup & Installation
-
-- **shadcn-installer** - Agent for shadcn installer
-
-### Component Development
-
-- **shadcn-component-expert** - Agent for shadcn component expert
-
-### UI & Styling
-
-- **shadcn-animation-specialist** - Agent for shadcn animation specialist
-- **shadcn-form-builder** - Agent for shadcn form builder
-- **shadcn-mobile-optimizer** - Agent for shadcn mobile optimizer
-- **shadcn-theming-specialist** - Agent for shadcn theming specialist
-
-### Forms & Data
-
-- **shadcn-dashboard-architect** - Agent for shadcn dashboard architect
-- **shadcn-data-visualizer** - Agent for shadcn data visualizer
-- **shadcn-performance-auditor** - Agent for shadcn performance auditor
-
-### Advanced Features
-
-- **shadcn-accessibility-auditor** - Agent for shadcn accessibility auditor
-- **shadcn-testing-engineer** - Agent for shadcn testing engineer
-
-### Quality & Migration
-
-- **shadcn-migration-specialist** - Agent for shadcn migration specialist
-
-## Usage
+- **shadcn-installer** - Multi-framework setup (Next.js, Vite, Remix, Astro, Laravel)
+- **shadcn-component-expert** - Component knowledge and usage patterns
+- **shadcn-theming-specialist** - CSS variables, dark mode, brand integration
+- **shadcn-form-builder** - React Hook Form, Zod validation, complex forms
+- **shadcn-dashboard-architect** - Admin dashboards, data tables, layouts
+- **shadcn-data-visualizer** - Recharts, D3.js, interactive visualizations
+- **shadcn-animation-specialist** - Framer Motion, CSS animations, micro-interactions
+- **shadcn-mobile-optimizer** - Mobile-first design, touch interfaces, PWA
+- **shadcn-performance-auditor** - Bundle optimization, Core Web Vitals
+- **shadcn-accessibility-auditor** - WCAG compliance, inclusive design
+- **shadcn-testing-engineer** - Jest, RTL, Playwright, visual regression
+- **shadcn-migration-specialist** - Migration from Material-UI, Chakra UI, Ant Design
 
 These agents work together to provide comprehensive shadcn/ui development support, from initial project setup through advanced customization and optimization.
-
-### Getting Started
-1. Use `shadcn-installer` for multi-framework setup (Next.js, Vite, Remix, Astro, Laravel)
-2. Employ `shadcn-component-expert` for component knowledge and usage patterns
-3. Leverage `shadcn-theming-specialist` for CSS variables, dark mode, and brand integration
-
-### Component Development
-- Use `shadcn-form-builder` for React Hook Form, Zod validation, and complex forms
-- Apply `shadcn-dashboard-architect` for admin dashboards, data tables, and layouts
-- Employ `shadcn-data-visualizer` for Recharts, D3.js, and interactive visualizations
-
-### Advanced Features
-- Use `shadcn-animation-specialist` for Framer Motion, CSS animations, and micro-interactions
-- Apply `shadcn-mobile-optimizer` for mobile-first design, touch interfaces, and PWA
-- Employ `shadcn-performance-auditor` for bundle optimization and Core Web Vitals
-- Leverage `shadcn-accessibility-auditor` for WCAG compliance and inclusive design
-
-### Quality Assurance
-- Use `shadcn-testing-engineer` for Jest, RTL, Playwright, and visual regression testing
-- Apply `shadcn-migration-specialist` for migration from Material-UI, Chakra UI, Ant Design
-
-## Agent Architecture
-
-Each agent follows opencode.ai sub-agent conventions:
-- **Focused Expertise**: Single-responsibility specialization for specific shadcn/ui development areas
-- **Comprehensive Background**: Deep shadcn/ui and modern React knowledge with TypeScript context
-- **Practical Implementation**: Real-world patterns, best practices, and contemporary tooling integration
-- **Quality Focus**: Modern testing strategies, performance optimization, and accessibility compliance
-
-## Modern React Support
-
-All agents are designed to work with modern React and TypeScript:
-- Full TypeScript support with proper type definitions
-- Modern React patterns and hooks
-- Tailwind CSS integration
-- Component composition and reusability
-- Performance optimization techniques
-
-## Compatibility & Installation
-
-This collection supports both **Claude Code** and **opencode.ai** platforms:
-
-### For Claude Code
-1. Copy agent files from `.claude/agents/` to your project's `.claude/agents/` directory
-2. Append contents from `CLAUDE.md` to your project's `CLAUDE.md` file
-
-### For opencode.ai
-1. Copy agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
-2. Manually keep the opencode.ai and Claude Code subagents in sync
-
-## Migration from Other UI Libraries
-
-This collection provides comprehensive migration assistance from popular UI libraries:
-
-- **Material-UI/Chakra UI**: Component mapping, theming conversion, and styling migration
-- **Ant Design**: Form handling, data display components, and layout conversion
-- **Custom Components**: Best practices for shadcn/ui adoption and integration
-
-### Key Benefits of shadcn/ui
-- **Copy & Paste**: No installation required, just copy components
-- **Fully Customizable**: Modify components to match your design system
-- **Accessible**: Built with accessibility best practices
-- **TypeScript**: Full TypeScript support out of the box
-- **Modern**: Uses latest React patterns and best practices
-
-## Resources
-
-- [shadcn/ui Documentation](https://ui.shadcn.com/)
-- [Next.js Documentation](https://nextjs.org/docs)
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-- [React Hook Form](https://react-hook-form.com/)
-- [Zod Validation](https://zod.dev/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Recharts](https://recharts.org/)
-
----

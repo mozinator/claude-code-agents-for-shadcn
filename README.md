@@ -17,7 +17,7 @@
 - **shadcn-testing-engineer** - Jest, RTL, Playwright, visual regression
 - **shadcn-migration-specialist** - Migration from Material-UI, Chakra UI, Ant Design
 
-## Compatibility
+## Compatibility & Installation
 
 This collection supports both **Claude Code** and **opencode.ai** platforms:
 
@@ -26,13 +26,14 @@ This collection supports both **Claude Code** and **opencode.ai** platforms:
 2. Append contents from `CLAUDE.md` to your project's `CLAUDE.md` file
 
 ### For opencode.ai
-1. Copy agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
-2. Manually keep the opencode.ai and Claude Code subagents in sync
+1. Copy agent files from `.opencode/agent/` to your project's `.opencode/agent/` directory
+2. The agents in `.opencode/agent/` are already configured for opencode.ai compatibility
 
-## Usage
-
-1. Copy the agent files from `.claude/agents/` to your project's `.opencode/agent/` directory
-2. Manually keep the opencode.ai and Claude Code subagents in sync
+### Keeping Both Platforms in Sync
+- Claude Code agents are in `.claude/agents/` (original format)
+- opencode.ai agents are in `.opencode/agent/` (opencode-compatible format)
+- Both versions contain the same expertise and knowledge
+- Update both directories when making changes to maintain compatibility
 
 ## Available Agents
 
